@@ -1,0 +1,13 @@
+*.pyc
+
+# папки сборки
+build/
+dist/
+
+# Исключить временные файлы, но включить важный конфиг
+temp/*.tmp
+!temp/config.ini
+
+# Файлы IDE (vs code).
+.vscode/
+.idea/
